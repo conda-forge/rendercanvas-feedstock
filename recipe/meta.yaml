@@ -7,8 +7,6 @@ package:
 source:
   url: https://pypi.org/packages/source/r/rendercanvas/rendercanvas-{{ version }}.tar.gz
   sha256: 376fc961443186bcb31d377ec56d0bec183008dab03e29f1dd391e8d0066a18f
-  patches:
-    - no_qt_aa_warning.patch
 
 build:
   noarch: python
