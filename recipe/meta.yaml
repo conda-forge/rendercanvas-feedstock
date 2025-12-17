@@ -1,4 +1,4 @@
-{% set version = "2.4.2" %}
+{% set version = "2.5.0" %}
 
 package:
   name: rendercanvas
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/r/rendercanvas/rendercanvas-{{ version }}.tar.gz
-  sha256: 21bdc6fdfc36de207a29497ac580ba4cd64de920bc46ecdafd29a8b689ad8601
+  sha256: 1789613307ee6d603eb378928b726ac0ac7d3e41e7f3a51eadc6814636b8de67
 
 build:
   noarch: python
