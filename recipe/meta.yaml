@@ -1,12 +1,12 @@
-{% set version = "2.7.2" %}
+{% set version = "3.0.0" %}
 
 package:
   name: rendercanvas
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/r/rendercanvas/rendercanvas-{{ version }}.tar.gz
-  sha256: 061507e379aefad390d066969bf3797f8d92f54c5943934dc43ab77d0f8bd690
+  url: https://files.pythonhosted.org/packages/source/r/rendercanvas/rendercanvas-{{ version }}.tar.gz
+  sha256: 81f623ee8d9fcd7de5f29df5608027cdbb77f3e29ce22359472692183facec96
   patches:
     # Support presenting to a native Wayland surface on Qt.
     # https://github.com/pygfx/rendercanvas/pull/233
@@ -15,7 +15,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
