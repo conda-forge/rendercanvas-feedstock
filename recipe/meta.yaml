@@ -7,10 +7,6 @@ package:
 source:
   url: https://files.pythonhosted.org/packages/source/r/rendercanvas/rendercanvas-{{ version }}.tar.gz
   sha256: 81f623ee8d9fcd7de5f29df5608027cdbb77f3e29ce22359472692183facec96
-  patches:
-    # Support presenting to a native Wayland surface on Qt.
-    # https://github.com/pygfx/rendercanvas/pull/233
-    - 0001-backport-native-wayland-surface-on-qt.patch
 
 build:
   noarch: python
