@@ -1,4 +1,4 @@
-{% set version = "3.0.0" %}
+{% set version = "3.0.1" %}
 
 package:
   name: rendercanvas
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/r/rendercanvas/rendercanvas-{{ version }}.tar.gz
-  sha256: 81f623ee8d9fcd7de5f29df5608027cdbb77f3e29ce22359472692183facec96
+  sha256: 3fe0d47edb3a8353f01b77edf1dcfd8fb55379efb77e3bff51c9111d14d6c301
 
 build:
   noarch: python
